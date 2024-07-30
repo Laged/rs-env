@@ -1,0 +1,13 @@
+[package]
+name = "tests"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dev-dependencies]
+hello_a = { path = "../hello_a" }
+hello_b = { path = "../hello_b" }
+
+[[test]]
+name = "test_hello"
+path = "test_hello.rs"

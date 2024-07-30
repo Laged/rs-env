@@ -1,0 +1,8 @@
+[package]
+name = "hello"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+hello_a = { path = "../hello_a" }
+hello_b = { path = "../hello_b" }
